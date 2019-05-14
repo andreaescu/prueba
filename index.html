@@ -30,13 +30,13 @@
               <a class="nav-link text-muted" href="#about">Acerca de mí <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-muted" href="#work">Experiencia</a>
+              <a class="nav-link text-muted" href="#experience">Mi experiencia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-muted" href="#work">Trabajos</a>
+              <a class="nav-link text-muted" href="#work">Portafolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-muted" href="#contacto">Contacto</a>
+              <a class="nav-link text-muted" href="#contact">Contacto</a>
             </li>
           </ul>
         </div>
@@ -44,28 +44,27 @@
     </nav>
 
       <header>
-          <div class="card bg-dark text-white">
+          <div class="card bg-dark text-dark">
             <img src="assets/img/bg_hero.png" class="card-img" alt="...">
             <div class="card-img-overlay pt-5 mt-5">
-              <h5 class="card-title text-right">Hola, soy Andrea</h5>
-              <p class="card-text text-right">Periodista de profesión, diseñadora de experiencias por adopción. Especializada en experiencia de usuario, estrategias de contenido y accesibilidad digital.</p>
+              <h5 class="card-title text-right display-4">Hola, soy Andrea</h5>
             </div>
           </div>
       </header>
-      <section class="container">
+      <section id="about" class="container d-none d-md-block">
         <h2>Acerca de mí</h2>
         <p>Soy periodista y licenciada en comunicación social. He desarrollado mi carrera en las áreas de comunicación digital, experiencia de usuario y accesibilidad web. .</p>
         <p>Poseo más de seis años de experiencia en gestión y edición de contenidos, creación de storytelling y desarrollo de proyectos web y multimedia</p>
       </section>
 
-      <section>
+      <section id="experience">
         <div class="bg-dark text-white">
           <div class="container">
             <h2 class="text-center m-3 p-5">Mi experiencia</h2>
             <div class="row text-center">
               <div class="col-md-6">
                 <h3>Accesibilidad</h3>
-                <i class="fas fa-universal-access fa-5x m-3"></i>
+                <i class="fas fa-universal-access fa-5x m-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Accesibilidad"></i>
                 <p>Accesibilidad es cuando una persona, sin importar las circunstancias en que se encuentre ni los dispositivos que utilice, puede acceder a todo el contenido de un sitio.</p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-light m-3" data-toggle="modal" data-target="#exampleModal">
@@ -94,7 +93,7 @@
               </div>
               <div class="col-md-6">
                 <h3>Estrategia de contenidos</h3>
-                <i class="fas fa-chess-queen fa-5x m-3"></i>
+                <i class="fas fa-chess-queen fa-5x m-3" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Estrategia"></i>
                 <p>El contenido es la base del diseño, sin este no tiene sentido. Cuando creamos experiencias para usuarios debemos contar una historia. Cada palabra debe tener un sentido.</p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-light m-3" data-toggle="modal" data-target="#exampleModal">
@@ -127,7 +126,7 @@
         </div>
       </section>
 
-      <section class="container">
+      <section id="work" class="container">
         <h2 class="text-center m-5">Portafolio</h2>
         <div class="card-columns">
           <div class="card">
@@ -146,7 +145,7 @@
           <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Iguanas</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text">Diseño e implementación del sitio</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
@@ -154,40 +153,33 @@
           <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Meet & Coffee</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text">Sitio de charlas, eventos y simposios.</p>
           </div>
         </div>
         <div class="card">
           <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Ricomida</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text">Completo sitio de recetas y reseñas para salir a comer.</p>
           </div>
         </div>
         <div class="card">
           <img src="assets/img/suricata.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Suricata</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text">Emprendimiento local de comida casera a domicilio.</p>
           </div>
         </div>
         <div class="card">
           <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Cuppon</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text">Venta de artículos de decoración, viajes y panoramas.</p>
           </div>
         </div>
-
-
-
         <div class="card bg-primary text-white text-center p-3">
           <blockquote class="blockquote mb-0">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+            <p>Don´t blame de user</p>
             <footer class="blockquote-footer text-white">
               <small>
                 Someone famous in <cite title="Source Title">Source Title</cite>
@@ -197,26 +189,23 @@
         </div>
         <div class="card p-3 text-right">
           <blockquote class="blockquote mb-0">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <p>No hay diseño de experiencia sin equivocaciones.</p>
             <footer class="blockquote-footer">
-              <small class="text-muted">
-                Someone famous in <cite title="Source Title">Source Title</cite>
-              </small>
             </footer>
           </blockquote>
         </div>
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">Usabilidad</h5>
+            <p class="card-text">Facilidad con que las personas pueden utilizar una herramienta particular o cualquier otro objeto fabricado por humanos con el fin de alcanzar un objetivo concreto.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="container">
-      <h2>Contacto</h2>
+    <section id="contact" class="container my-5">
+      <h2 class="text-center">Contacto</h2>
+      <div class="typeform-widget" data-url="https://andrea319796.typeform.com/to/DWPuMz" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=DWPuMz&utm_source=typeform.com-13940272-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
     </section>
 
     <footer class="bg-dark p-5 m-6 text-white text-center">
@@ -229,10 +218,8 @@
     </footer>
 
 
-
-
-    <!--jQuery 3.3.1-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!--jQuery 3.4.1 sin slim-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <!--Popper 1.14.7-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <!--Bootstrap JS 4.3.1-->
