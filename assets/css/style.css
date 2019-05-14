@@ -5,3 +5,12 @@ body {
   font-family: 'Just Me Again Down Here', cursive;
   font-size: 40px;
 }
+
+.about {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.card-head {
+  margin-top: 500px;
+}
