@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi portafolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS de Bootstrap 4.2.1-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here|Montserrat:400,700|Poiret+One" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Mi estilo-->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-brand text-muted" href="#">AE - Diseño UX/UI</a>
+
+        <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="#about">Acerca de mí <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="#work">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="#work">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      <header>
+          <div class="card bg-dark text-white">
+            <img src="assets/img/bg_hero.png" class="card-img" alt="...">
+            <div class="card-img-overlay pt-5 mt-5">
+              <h5 class="card-title text-right">Hola, soy Andrea</h5>
+              <p class="card-text text-right">Periodista de profesión, diseñadora de experiencias por adopción. Especializada en experiencia de usuario, estrategias de contenido y accesibilidad digital.</p>
+            </div>
+          </div>
+      </header>
+      <section class="container">
+        <h2>Acerca de mí</h2>
+        <p>Soy periodista y licenciada en comunicación social. He desarrollado mi carrera en las áreas de comunicación digital, experiencia de usuario y accesibilidad web. .</p>
+        <p>Poseo más de seis años de experiencia en gestión y edición de contenidos, creación de storytelling y desarrollo de proyectos web y multimedia</p>
+      </section>
+
+      <section>
+        <div class="bg-dark text-white">
+          <div class="container">
+            <h2 class="text-center m-3 p-5">Mi experiencia</h2>
+            <div class="row text-center">
+              <div class="col-md-6">
+                <h3>Accesibilidad</h3>
+                <i class="fas fa-universal-access fa-5x m-3"></i>
+                <p>Accesibilidad es cuando una persona, sin importar las circunstancias en que se encuentre ni los dispositivos que utilice, puede acceder a todo el contenido de un sitio.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light m-3" data-toggle="modal" data-target="#exampleModal">
+                  Conocer
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content text-dark">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">¿Qué es accesibilidad?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Accesibilidad es cuando una persona, sin importar las circunstancias en que se encuentre ni los dispositivos que utilice, puede acceder a todo el contenido de un sitio. Con esto en mente, podemos enumerar 10 acciones que nos ayudarán a comenzar a trabajar la accesibilidad de un sitio y entrar en este desconocido, pero desafiante mundo.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h3>Estrategia de contenidos</h3>
+                <i class="fas fa-chess-queen fa-5x m-3"></i>
+                <p>El contenido es la base del diseño, sin este no tiene sentido. Cuando creamos experiencias para usuarios debemos contar una historia. Cada palabra debe tener un sentido.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light m-3" data-toggle="modal" data-target="#exampleModal">
+                  Conocer
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content text-dark">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <h2 class="text-center m-5">Portafolio</h2>
+        <div class="card-columns">
+          <div class="card">
+            <img src="assets/img/dmark.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Diseño de marca</h5>
+              <p class="card-text">Creación de marca para empresa.</p>
+            </div>
+          </div>
+        <div class="card p-3">
+          <blockquote class="blockquote mb-0 card-body">
+            <p>Diseño de experiencias memorables</p>
+          </blockquote>
+        </div>
+        <div class="card">
+          <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Iguanas</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Meet & Coffee</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ricomida</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/suricata.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Suricata</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cuppon</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+
+
+        <div class="card bg-primary text-white text-center p-3">
+          <blockquote class="blockquote mb-0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+            <footer class="blockquote-footer text-white">
+              <small>
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card p-3 text-right">
+          <blockquote class="blockquote mb-0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2>Contacto</h2>
+    </section>
+
+    <footer class="bg-dark p-5 m-6 text-white text-center">
+      <div class="container">
+        <a href="http://www.facebook.com"><i class="fab fa-facebook fa-3x text-white m-2"></i></a>
+        <a href="http://www.instagram.com"><i class="fab fa-instagram fa-3x text-white m-2"></i></a>
+        <a href="http://www.linkedin.com">  <i class="fab fa-linkedin fa-3x text-white m-2"></i></a>
+        <p class="text-brand">AE</p>
+    </div>
+    </footer>
+
+
+
+
+    <!--jQuery 3.3.1-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!--Popper 1.14.7-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!--Bootstrap JS 4.3.1-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--Mi script-->
+    <script src="assets/js/script.js"></script>
+
+  </body>
+</html>
